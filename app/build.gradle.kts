@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.ae.studybuddytimer"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.ae.studybuddytimer"
