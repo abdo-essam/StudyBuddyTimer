@@ -8,6 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import androidx.navigation.compose.rememberNavController
+import com.ae.studybuddytimer.ui.navigation.StudyBuddyNavigation
 import com.ae.studybuddytimer.ui.theme.StudyBuddyTimerTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +22,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    val navController = rememberNavController()
+                    StudyBuddyNavigation(navController = navController)
                 }
             }
         }
