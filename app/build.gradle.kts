@@ -49,7 +49,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.material.icons)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,5 +69,8 @@ dependencies {
 
     // Permissions
     implementation(libs.google.accompanist.permissions)
+
+    // Icons
+    implementation(libs.androidx.material.icons)
 
 }
